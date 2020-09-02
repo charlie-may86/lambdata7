@@ -14,11 +14,11 @@ setup(
     #license="MIT",
     url="https://github.com/charlie-may86/lambdata7.git",
     #keywords="",
-    packages=find_packages() # ["my_lambdata"]
+    packages=find_packages(), # ["my_lambdata"]
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
     ],
-    python_requires='>=3.6'
+    python_requires='>=3.6',
 )
