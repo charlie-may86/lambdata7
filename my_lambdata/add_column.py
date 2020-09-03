@@ -13,4 +13,4 @@ def add_column(X, Y):
 
   new_column = pd.Series(X)
 
-  Y['new_column'] = new_column
+  Y['new_column'] = new_columnad

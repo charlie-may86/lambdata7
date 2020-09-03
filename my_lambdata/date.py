@@ -1,4 +1,5 @@
 import pandas as pd
+# Function to split dates ("MM/DD/YYYY", etc.) into multiple columns
 
 def date_columns(X):
   '''

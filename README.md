@@ -3,7 +3,7 @@ A collection of data-science utility functions
 
 ## Installation
 
-https://test.pypi.org/project/lambdata7/1.0/
+https://test.pypi.org/project/lambdata7/1.1/
 
 ## Usage
 
@@ -25,3 +25,6 @@ python setup.py sdist bdist_wheel
 ```
 
 5. run the twine command to upload the packaged code
+```
+twine upload --skip-existing --repository-url https://test.pypi.org/legacy/ dist/*
+```
