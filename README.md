@@ -3,7 +3,7 @@ A collection of data-science utility functions
 
 ## Installation
 
-https://test.pypi.org/project/lambdata7/1.1/
+https://test.pypi.org/project/lambdata7/1.3/
 
 ## Usage
 
