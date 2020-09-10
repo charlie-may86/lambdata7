@@ -2,9 +2,15 @@
 A collection of data-science utility functions
 
 ## Installation
-
+Visit the website below to get the the install code
+and more information
 https://test.pypi.org/project/lambdata7/1.3/
 
+
+The current install code is below
+```py
+pip install -i https://test.pypi.org/simple/ lambdata7==1.3
+```
 ## Usage
 
 ```py
