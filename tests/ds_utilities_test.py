@@ -1,6 +1,6 @@
 import unittest
 import pandas as pd 
-from my_lambdata.ds_utilities import enlar
+from my_lambdata.ds_utilities import enlarge
 
 # To run the test
 '''
