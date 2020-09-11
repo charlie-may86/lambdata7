@@ -4,7 +4,12 @@ from pdb import set_trace as breakpoint
 class Person():
     def __init__(self, name, age, birth_month, home_state):
         self.name = name
-        self.age = age
+        
+        if 0 <= age <= 120:
+            self.age = age
+        else:
+            self.age = 21
+
         self.birth_month = birth_month
         self.home_state = home_state
 
@@ -38,6 +43,10 @@ class Worker(Person):
             print(f'{self.name} has graduated college!')
         else:
             print(f'{self.name} already graduated, duh :)')
+    
+    # __repr__(self): what info do you want to communicate when you print an object?  
+    def __repr__(self):
+        return f'person Object -> Name: {self.name}, Age: {self.age}'
 
 if __name__ == "__main__":
 
